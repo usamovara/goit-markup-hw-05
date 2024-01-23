@@ -55,7 +55,7 @@ img {
   padding-bottom: 120px;
 }
 /*----------------- HIDDEN ------------------*/
-.visibility-hidden {
+.visibility-hidden .visually-hidden{
   position: absolute;
   width: 1px;
   height: 1px;
@@ -66,7 +66,6 @@ img {
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
-
 }
 /*------------------- HEADER ---------------*/
 .header .container {
@@ -624,7 +623,7 @@ display:inline-block;
 }
 
 .footer-subscribe-title {
-  color: var(--WHITE, #fff);
+  color: #fff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
