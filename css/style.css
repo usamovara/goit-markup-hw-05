@@ -646,6 +646,7 @@ display:inline-block;
   height: 40px;
   flex-shrink: 0;
   margin-right: 24px;
+  line-height: 2px;
 }
 
 .footer-subscribe-button {
